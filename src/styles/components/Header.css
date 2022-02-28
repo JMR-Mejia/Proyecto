@@ -8,6 +8,7 @@
 .div-jus {
   display: flex;
   align-items: center;
+  z-index: 5;
 }
 .div-jus a {
   text-decoration: none;

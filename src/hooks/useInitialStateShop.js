@@ -3,6 +3,7 @@ import initialState from "../initialState";
 
 const useInitialStateShop = () => {
   const [state, setState] = React.useState(initialState);
+
   const [counter, setCounter] = React.useState(0);
   const addCounter = () => {
     setCounter(counter + 1);
