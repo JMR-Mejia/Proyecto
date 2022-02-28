@@ -50,7 +50,7 @@ function Header() {
                 <button className="card-button_respon" type="submit">
                   <i className="cart fa-solid fa-cart-shopping"></i>
                   Cart
-                  {cart.length > 0 && (
+                  {!!cart && cart.length > 0 && (
                     <span className="Price">{cart.length} </span>
                   )}
                 </button>
@@ -62,7 +62,7 @@ function Header() {
               <button className="card-button" type="submit">
                 <i className="cart fa-solid fa-cart-shopping"></i>
                 Cart
-                {cart.length > 0 && (
+                {!!cart && cart.length > 0 && (
                   <span className="Price">{cart.length} </span>
                 )}
               </button>

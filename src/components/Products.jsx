@@ -15,7 +15,7 @@ function Products() {
   return (
     <div className="Products-container">
       <div className="Products-items">
-        {products.map((product) => (
+        {!!products && products.map((product) => (
           <Product
             key={product.id}
             product={product}
